@@ -12,7 +12,7 @@ sudo docker compose build # Run only once after clone
 ```
 # Runs a new container from the image you built and mounts your local directory into /project inside the container, so changes are shared between host and container. -it makes it interactive so you can use terminal commands inside.
 ```bash
-sudo docker compose run {container_name}
+sudo docker compose run anchor-dev
 ```
 # Inside container you can easily edit your code and run multiple times below command with reflecting changes
 ```bash
