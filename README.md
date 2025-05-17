@@ -10,11 +10,11 @@ This repository provides a Docker image to build and run Anchor projects without
 ```bash
 sudo docker compose build # Run only once after clone
 ```
-# Runs a new container from the image you built and mounts your local directory into /project inside the container, so changes are shared between host and container. -it makes it interactive so you can use terminal commands inside.
+### Runs a new container from the image you built and mounts your local directory into /project inside the container, so changes are shared between host and container. -it makes it interactive so you can use terminal commands inside.
 ```bash
 sudo docker compose run anchor-dev
 ```
-# Inside container you can easily edit your code and run multiple times below command with reflecting changes
+### Inside container you can easily edit your code and run multiple times below command with reflecting changes
 ```bash
 root@c46082094160:/project# anchor build
 ```
