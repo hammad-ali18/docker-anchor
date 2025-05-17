@@ -1,0 +1,8 @@
+services:
+  anchor-dev:
+    build: .
+    container_name: anchor_dev
+    volumes:
+      - .:/project
+    working_dir: /project
+    tty: true
